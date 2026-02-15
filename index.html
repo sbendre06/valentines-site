@@ -52,19 +52,34 @@
             z-index: 0;
         }
 
-        .sparkle:nth-child(1) { top: 0; left: 0; animation-delay: 0s; }
-        .sparkle:nth-child(2) { top: 0; right: 0; left: auto; animation-delay: 0.2s; }
-        .sparkle:nth-child(3) { bottom: 0; left: 0; top: auto; animation-delay: 0.4s; }
-        .sparkle:nth-child(4) { bottom: 0; right: 0; top: auto; left: auto; animation-delay: 0.6s; }
-        .sparkle:nth-child(5) { animation-delay: 0.1s; }
-        .sparkle:nth-child(6) { animation-delay: 0.5s; }
-        .sparkle:nth-child(7) { animation-delay: 0.3s; }
-        .sparkle:nth-child(8) { animation-delay: 0.7s; }
-
-        .sparkle:nth-child(5) { top: 0; left: 50%; margin-left: -5px; }
-        .sparkle:nth-child(6) { bottom: 0; top: auto; left: 50%; margin-left: -5px; }
-        .sparkle:nth-child(7) { top: 50%; margin-top: -5px; }
-        .sparkle:nth-child(8) { top: 50%; margin-top: -5px; right: 0; left: auto; }
+        /* Top edge */
+        .sparkle:nth-child(1) { top: 0; left: 5%; animation-delay: 0s; }
+        .sparkle:nth-child(2) { top: 0; left: 20%; animation-delay: 0.15s; }
+        .sparkle:nth-child(3) { top: 0; left: 35%; animation-delay: 0.3s; }
+        .sparkle:nth-child(4) { top: 0; left: 50%; margin-left: -5px; animation-delay: 0.45s; }
+        .sparkle:nth-child(5) { top: 0; left: 65%; animation-delay: 0.1s; }
+        .sparkle:nth-child(6) { top: 0; left: 80%; animation-delay: 0.25s; }
+        .sparkle:nth-child(7) { top: 0; right: 5%; left: auto; animation-delay: 0.4s; }
+        /* Right edge */
+        .sparkle:nth-child(8) { top: 15%; right: 0; left: auto; animation-delay: 0.55s; }
+        .sparkle:nth-child(9) { top: 35%; right: 0; left: auto; margin-top: -5px; animation-delay: 0.1s; }
+        .sparkle:nth-child(10) { top: 50%; right: 0; left: auto; margin-top: -5px; animation-delay: 0.35s; }
+        .sparkle:nth-child(11) { top: 65%; right: 0; left: auto; animation-delay: 0.5s; }
+        .sparkle:nth-child(12) { bottom: 15%; top: auto; right: 0; left: auto; animation-delay: 0.15s; }
+        /* Bottom edge */
+        .sparkle:nth-child(13) { bottom: 0; right: 5%; left: auto; animation-delay: 0.3s; }
+        .sparkle:nth-child(14) { bottom: 0; left: 80%; animation-delay: 0.45s; }
+        .sparkle:nth-child(15) { bottom: 0; left: 65%; animation-delay: 0.05s; }
+        .sparkle:nth-child(16) { bottom: 0; left: 50%; margin-left: -5px; animation-delay: 0.2s; }
+        .sparkle:nth-child(17) { bottom: 0; left: 35%; animation-delay: 0.4s; }
+        .sparkle:nth-child(18) { bottom: 0; left: 20%; animation-delay: 0.55s; }
+        .sparkle:nth-child(19) { bottom: 0; left: 5%; animation-delay: 0.15s; }
+        /* Left edge */
+        .sparkle:nth-child(20) { bottom: 15%; top: auto; animation-delay: 0.35s; }
+        .sparkle:nth-child(21) { top: 65%; animation-delay: 0.5s; }
+        .sparkle:nth-child(22) { top: 50%; margin-top: -5px; animation-delay: 0.1s; }
+        .sparkle:nth-child(23) { top: 35%; margin-top: -5px; animation-delay: 0.3s; }
+        .sparkle:nth-child(24) { top: 15%; animation-delay: 0.45s; }
 
         @keyframes sparkle {
             0%, 100% { opacity: 0.3; }
@@ -153,14 +168,10 @@
 </head>
 <body>
     <div class="card-wrapper">
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
-        <span class="sparkle"></span>
+        <span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span>
+        <span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span>
+        <span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span>
+        <span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span><span class="sparkle"></span>
     <div class="card">
         <h1>Happy Valentine's Day Helen 😼😼</h1>
         <img src="us.JPG" alt="" class="brightness-image">
